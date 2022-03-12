@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bootstrap Example</title>
+		<meta name="viewport" content="width=device-width, initial scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="container-bg.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
+	
+	</head>
+	<body>
+	
+	
+		<div class="text-center">
+			<h1>Мојата Прва Bootstrap Веб Страна</h1>
+			<p>Мојата Прва Домашна Задача по Предметот Веб Програмирање
+
+</p>
+			<div class="d-grid gap-2">
+  				<button class="btn btn-primary" type="button">
+					<span class="glyphicon glyphicon-home"></span> Home
+				</button>
+
+ 				<button class="btn btn-info" type="button">
+    					<span class="glyphicon glyphicon-search"></span> Search
+				</button>
+			</div>
+		</div>
+
+		<div class="container">
+			<h2>Progress Bar</h2>
+  			<div class="progress">
+    				<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"> 80% Complete
+    				</div>
+ 			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Колона 1</h3>
+					<p>Build fast, responsive sites with Bootstrap...</p>
+					<p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+			</div>
+			
+			<div class="col-sm-4">
+			<h3>Колона 2</h3>
+			<p>Build fast, responsive sites with Bootstrap...</p>
+			<p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+			</div>
+
+			<div class="col-sm-4">
+			<h3>Колона 3</h3>
+			<p>Build fast, responsive sites with Bootstrap...</p>
+			<p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-8 col-xs-12">
+					<div class="table-responsive">
+  					<table class="table table-bordered">
+    				 		<thead>
+							<tr>
+								<th colspan="2" style="text-align:center">Месеци и часови</th>
+								<th style="text-align:center">Денови</th>
+								<th style="text-align:center">Име</th>
+								<th style="text-align:center">Презиме</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr style="text-align:center" class="bg-success">
+								<td>Април</td>
+								<td>100</td>
+								<td>2</td>
+								<td>Стефан</td>
+								<td>Стефановски</td>
+							</tr>
+							<tr style="text-align:center">
+								<td>Мај</td>
+								<td>45</td>
+								<td>1</td>
+								<td>Петко</td>
+								<td>Петкоски</td>
+							</tr>
+							<tr style="text-align:center">
+								<td>Јули</td>
+								<td>120</td>
+								<td>4</td>
+								<td colspan="2">Нема информација</td>
+							</tr>
+						</tbody>
+  			</table>
+			</div>
+
+		</div>
+	</div>                        
+
+		<form>
+  <div class="form-row">
+    <div class="form-group col-md-8">
+      <label for="movieTitle">Movie title</label>
+      <input type="text" class="form-control" id="movieTitle">
+    </div>
+	<div class="form-group col-md-4">
+	<label for="Genre">Genre</label>
+<select class="form-control" id="exampleFormControlSelect1">
+<option selected>Choose a genre</option>
+        <option>Comedy</option>
+        <option>Drama</option>
+        <option>Romantic</option>
+	<option>Action</option>
+        <option>Thriller</option>
+	<option>Horror</option>
+        <option>Sci-Fi</option>
+	<option>Crime</option>
+        <option>Western</option>
+	<option>Animation</option>
+      </select>
+</div>
+</div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputDirector">Director</label>
+      <input type="text" class="form-control" id="inputDirector">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputWriter">Writer</label>
+      <input type="text" class="form-control" id="inputWriter">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputProducer">Producer</label>
+      <input type="text" class="form-control" id="inputProducer">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputWebsite">Website</label>
+      <input type="url" class="form-control" id="inputWebsite">
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputYoutube">Youtube trailer URL</label>
+      <input type="url" class="form-control" id="inputYoutube">
+    </div>
+    <div class="form-group">
+  <label for="comment">Review</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+<div class="form-row">
+<div class="form-group col-md-12">
+<label for="rating">Rating</label>
+<div class="radio">
+<label class="radio-inline"><input type="radio" name="rating" checked>Terrible</label>
+<label class="radio-inline"><input type="radio" name="rating">Watchable</label>
+<label class="radio-inline"><input type="radio" name="rating">Best ever</label>
+</div>
+</div>
+</div>
+
+  <div class="buttons">
+  <button type="reset" value="Reset" class="btn btn-danger btn-lg">Cancel <span class="glyphicon glyphicon-remove"></span></button>
+  <button type="submit" value="Submit" class="btn btn-success btn-lg">Submit <span class="glyphicon glyphicon-ok"></span></button>
+</div>
+ 
+</form>
+
+<br/>
+
+
+<div class='col-sm-4' >
+  <div class='circle'align="center">
+  
+  
+  <span>
+  
+<p class="text-monospace"><strong>PROGRAMMER </strong><i class="bi bi-flag-fill"></i></p>
+  </span>
+  
+  <span>
+  
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 24 24"><path d="M13 20h-7c-2.174-3.004-4-6.284-4-12h15c0 5.667-1.88 9.089-4 12zm5.119-10c-.057.701-.141 1.367-.252 2h1.55c-.449 1.29-1.5 2.478-2.299 2.914-.358 1.038-.787 1.981-1.26 2.852 3.274-1.143 5.846-4.509 6.142-7.766h-3.881zm-7.745-3.001c4.737-4.27-.98-4.044.117-6.999-3.783 3.817 1.409 3.902-.117 6.999zm-2.78.001c3.154-2.825-.664-3.102.087-5.099-2.642 2.787.95 2.859-.087 5.099zm9.406 15h-15v2h15v-2z"/></svg>
+
+</span>
+
+<span>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+  <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+</svg>
+
+</span>
+
+<span>
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"viewBox="0 0 24 24"><path d="M17 12.645v-2.289c-1.17-.417-1.907-.533-2.28-1.431-.373-.9.07-1.512.6-2.625l-1.618-1.619c-1.105.525-1.723.974-2.626.6-.9-.374-1.017-1.117-1.431-2.281h-2.29c-.412 1.158-.53 1.907-1.431 2.28h-.001c-.9.374-1.51-.07-2.625-.6l-1.617 1.619c.527 1.11.973 1.724.6 2.625-.375.901-1.123 1.019-2.281 1.431v2.289c1.155.412 1.907.531 2.28 1.431.376.908-.081 1.534-.6 2.625l1.618 1.619c1.107-.525 1.724-.974 2.625-.6h.001c.9.373 1.018 1.118 1.431 2.28h2.289c.412-1.158.53-1.905 1.437-2.282h.001c.894-.372 1.501.071 2.619.602l1.618-1.619c-.525-1.107-.974-1.723-.601-2.625.374-.899 1.126-1.019 2.282-1.43zm-8.5 1.689c-1.564 0-2.833-1.269-2.833-2.834s1.269-2.834 2.833-2.834 2.833 1.269 2.833 2.834-1.269 2.834-2.833 2.834zm15.5 4.205v-1.077c-.55-.196-.897-.251-1.073-.673-.176-.424.033-.711.282-1.236l-.762-.762c-.52.248-.811.458-1.235.283-.424-.175-.479-.525-.674-1.073h-1.076c-.194.545-.25.897-.674 1.073-.424.176-.711-.033-1.235-.283l-.762.762c.248.523.458.812.282 1.236-.176.424-.528.479-1.073.673v1.077c.544.193.897.25 1.073.673.177.427-.038.722-.282 1.236l.762.762c.521-.248.812-.458 1.235-.283.424.175.479.526.674 1.073h1.076c.194-.545.25-.897.676-1.074h.001c.421-.175.706.034 1.232.284l.762-.762c-.247-.521-.458-.812-.282-1.235s.529-.481 1.073-.674zm-4 .794c-.736 0-1.333-.597-1.333-1.333s.597-1.333 1.333-1.333 1.333.597 1.333 1.333-.597 1.333-1.333 1.333z"/></svg>
+</span>
+
+<span>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+  <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+</svg>
+  </span>
+
+<span>
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+  <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+</svg>
+
+
+  </span></div>
+  
+</div>
+  
+
+
+
+
+	</body>
+</html>

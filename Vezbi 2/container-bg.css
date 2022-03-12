@@ -1,0 +1,42 @@
+.col-sm-4{
+	background-color: #d0eff9;
+	
+	padding:10px;
+	vertical-align: center;
+}
+
+ 
+	.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 300px;
+  flex-direction: column;
+  padding:5px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #ed6f2b;
+  min-width: 350px;
+  min-height: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  padding: 10px;
+
+ 
+
+}
+
+.circle span {
+  color: #fff;
+  
+}
+
+.prog {
+	background-color: #fff;
+	
+}
